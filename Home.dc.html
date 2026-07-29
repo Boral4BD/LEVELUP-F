@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/nocturne-c2dc73b8-c63a-41a4-9a1e-2ae30b36d17e/styles.css">
+  <script src="_ds/nocturne-c2dc73b8-c63a-41a4-9a1e-2ae30b36d17e/_ds_bundle.js"></script>
+  <title>LEVELUP — Fitness, Gamified</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    a { color: var(--color-accent); }
+    a:hover { color: var(--color-accent-300); }
+    input::placeholder { color: color-mix(in srgb, var(--color-text) 45%, transparent); }
+  </style>
+</helmet>
+
+<div style="min-height:100vh;background:radial-gradient(1200px 700px at 82% -160px, color-mix(in srgb, var(--color-accent-900) 65%, transparent), transparent 60%), radial-gradient(1000px 800px at -10% 100%, color-mix(in srgb, black 30%, transparent), transparent 55%), var(--color-bg);">
+
+  <nav class="nav" style="padding-inline:clamp(20px,5vw,72px);max-width:1200px;margin:0 auto;">
+    <span class="nav-brand">LEVELUP</span>
+    <a href="Home.dc.html" aria-current="page" style="margin-right:20px;">Home</a>
+    <a href="Features.dc.html" style="margin-right:20px;">Features</a>
+    <a href="Company.dc.html" style="margin-right:20px;">Company</a>
+    <a href="#waitlist" class="btn btn-primary">Join waitlist</a>
+  </nav>
+
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);">
+
+    <section style="padding:88px 0 64px;">
+      <p style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--color-accent);margin:0 0 14px;">AI-powered fitness, gamified</p>
+      <h1 style="font-family:var(--font-heading);font-weight:500;font-size:clamp(40px,6vw,76px);line-height:1.06;letter-spacing:-0.015em;margin:0;max-width:16ch;">Level up your body. Beat your own high score.</h1>
+      <p style="font-size:18px;line-height:1.6;max-width:58ch;color:var(--color-text);margin:22px 0 0;">LEVELUP turns exercise into a game you actually want to play — an AI coach that builds your plan, XP and achievements that reward consistency, and multiplayer challenges that make showing up a lot more fun.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;">
+        <a href="#waitlist" class="btn btn-primary">Join the waitlist</a>
+        <a href="Features.dc.html" class="btn btn-ghost">Explore features</a>
+      </div>
+    </section>
+
+    <section style="padding:56px 0;">
+      <p style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--color-accent);margin:0 0 14px;">The problem</p>
+      <h2 style="font-family:var(--font-heading);font-weight:500;font-size:32px;line-height:1.2;margin:0 0 16px;max-width:30ch;">Motivation shouldn't be the hardest part of getting fit.</h2>
+      <p style="font-size:16px;line-height:1.65;max-width:62ch;color:color-mix(in srgb, var(--color-text) 82%, transparent);margin:0 0 32px;">Physical inactivity among teenagers and young adults is a growing issue in Australia. Most people don't stay active because it's hard to stay motivated, gym memberships are expensive, and the fitness apps on offer track workouts without making them enjoyable.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;">
+        <div class="card elev-sm">
+          <p class="card-kicker">Barrier 01</p>
+          <h3 class="card-title">Low motivation</h3>
+          <p class="card-body">Without a reason to keep going, exercise habits fall apart within weeks.</p>
+        </div>
+        <div class="card elev-sm">
+          <p class="card-kicker">Barrier 02</p>
+          <h3 class="card-title">Costly memberships</h3>
+          <p class="card-body">Traditional gyms price out the people who'd benefit most from staying active.</p>
+        </div>
+        <div class="card elev-sm">
+          <p class="card-kicker">Barrier 03</p>
+          <h3 class="card-title">Uninspiring apps</h3>
+          <p class="card-body">Most fitness apps just log workouts — they don't make you want to open them again.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr">
+
+    <section style="padding:56px 0;">
+      <p style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--color-accent);margin:0 0 14px;">The insight</p>
+      <h2 style="font-family:var(--font-heading);font-weight:500;font-size:32px;line-height:1.2;margin:0 0 16px;max-width:34ch;">People want fitness that feels like a game.</h2>
+      <p style="font-size:16px;line-height:1.65;max-width:62ch;color:color-mix(in srgb, var(--color-text) 82%, transparent);">Market research conducted during LEVELUP's development found that most respondents wanted competition, rewards and progression systems like the ones they already love in video games — a clear gap in a fitness market built for tracking, not engagement.</p>
+    </section>
+
+    <section style="padding:56px 0;">
+      <p style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--color-accent);margin:0 0 14px;">Meet LEVELUP</p>
+      <h2 style="font-family:var(--font-heading);font-weight:500;font-size:32px;line-height:1.2;margin:0 0 8px;">Every feature earns its place.</h2>
+
+      <div style="display:grid;grid-template-columns:minmax(50px,120px) minmax(0,320px) minmax(0,1fr);gap:20px clamp(24px,4vw,64px);align-items:baseline;padding:28px 0;border-top:1px solid var(--color-divider);margin-top:24px;">
+        <p style="font-family:var(--font-heading);font-weight:500;font-size:15px;color:var(--color-accent);margin:0;">01</p>
+        <h3 style="font-family:var(--font-heading);font-weight:500;font-size:22px;margin:0;">AI Fitness Coach</h3>
+        <p style="font-size:15.5px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0;max-width:52ch;">Personalised workout plans tailored to your goals and fitness level, adjusting as you progress.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(50px,120px) minmax(0,320px) minmax(0,1fr);gap:20px clamp(24px,4vw,64px);align-items:baseline;padding:28px 0;border-top:1px solid var(--color-divider);">
+        <p style="font-family:var(--font-heading);font-weight:500;font-size:15px;color:var(--color-accent);margin:0;">02</p>
+        <h3 style="font-family:var(--font-heading);font-weight:500;font-size:22px;margin:0;">XP & Achievements</h3>
+        <p style="font-size:15.5px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0;max-width:52ch;">Earn experience for every session and unlock milestones that reward showing up consistently.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(50px,120px) minmax(0,320px) minmax(0,1fr);gap:20px clamp(24px,4vw,64px);align-items:baseline;padding:28px 0;border-top:1px solid var(--color-divider);">
+        <p style="font-family:var(--font-heading);font-weight:500;font-size:15px;color:var(--color-accent);margin:0;">03</p>
+        <h3 style="font-family:var(--font-heading);font-weight:500;font-size:22px;margin:0;">Leaderboards</h3>
+        <p style="font-size:15.5px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0;max-width:52ch;">See how you stack up against friends and members worldwide, and climb the rankings.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(50px,120px) minmax(0,320px) minmax(0,1fr);gap:20px clamp(24px,4vw,64px);align-items:baseline;padding:28px 0;border-top:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider);">
+        <p style="font-family:var(--font-heading);font-weight:500;font-size:15px;color:var(--color-accent);margin:0;">04</p>
+        <h3 style="font-family:var(--font-heading);font-weight:500;font-size:22px;margin:0;">Multiplayer Challenges</h3>
+        <p style="font-size:15.5px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 80%, transparent);margin:0;max-width:52ch;">Team up or compete head-to-head, building the accountability that keeps habits alive.</p>
+      </div>
+
+      <a href="Features.dc.html" class="btn btn-ghost" style="margin-top:24px;">See all features →</a>
+    </section>
+
+  </div>
+
+  <section id="waitlist" style="background:radial-gradient(900px 420px at 85% -40%, color-mix(in srgb, var(--color-section-glow) 70%, transparent), transparent 64%), var(--color-section);padding:64px 0;margin-top:56px;">
+    <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);">
+      <h3 style="font-family:var(--font-heading);font-weight:500;font-size:26px;margin:0 0 10px;">Be first to level up.</h3>
+      <p style="font-size:15.5px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 82%, transparent);margin:0 0 20px;max-width:56ch;">Join the waitlist for early access — plus a founding member XP boost when we launch.</p>
+      <form style="display:flex;gap:10px;max-width:440px;flex-wrap:wrap;" onsubmit="event.preventDefault();alert('Thanks — you\'re on the list.');this.reset();">
+        <input class="input" type="email" required placeholder="you@example.com" aria-label="Email address" style="flex:1;min-width:200px;">
+        <button type="submit" class="btn btn-primary">Join waitlist</button>
+      </form>
+    </div>
+  </section>
+
+  <footer style="max-width:1200px;margin:0 auto;padding:32px clamp(20px,5vw,72px) 48px;">
+    <div style="display:flex;gap:32px;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;border-top:1px solid var(--color-divider);padding-top:24px;">
+      <div style="max-width:44ch;">
+        <p style="font-family:var(--font-heading);font-weight:500;font-size:16px;margin:0 0 8px;">LEVELUP</p>
+        <p style="font-size:13px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 60%, transparent);margin:0;">A gamified fitness platform, built in Australia. LEVELUP may use device cameras for optional AI form-check features — this is sensitive personal data and is handled under our privacy approach.</p>
+      </div>
+      <div style="display:flex;gap:32px;flex-wrap:wrap;">
+        <div style="display:flex;flex-direction:column;gap:8px;font-size:13px;">
+          <a href="Home.dc.html">Home</a>
+          <a href="Features.dc.html">Features</a>
+          <a href="Company.dc.html">Company</a>
+          <a href="Company.dc.html#privacy">Privacy &amp; legal</a>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:12px;color:color-mix(in srgb, var(--color-text) 45%, transparent);margin:24px 0 0;">© 2026 LEVELUP. All rights reserved.</p>
+  </footer>
+
+</div>
+
+</x-dc>
+</body>
+</html>
